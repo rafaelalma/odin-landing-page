@@ -25,6 +25,7 @@ body {
 .logo {
     color: #f9faf8;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .nav-bar ul {
@@ -73,11 +74,12 @@ body {
 
 .hero-info button {
     background-color: #3882f6;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border: none;
     border-radius: 10px;
     color: #e5e7eb;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .hero-image {
@@ -92,4 +94,100 @@ body {
 
     background-color: #e5e7eb;
     color: #1f2937;
+}
+
+.information-title {
+    text-align: center;
+
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+
+    margin: 50px 0;
+}
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+    margin-bottom: 100px;
+}
+
+.information-item {
+    width: 150px;
+
+    text-align: center;
+}
+
+.illustration {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+
+
+    margin-bottom: 10px;
+}
+
+.quote-background {
+    background-color: #e5e7eb;
+    
+    padding: 100px 20px;
+}
+
+.quote {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-signature {
+    text-align: right;
+    font-weight: bold;
+}
+
+.call-to-action {
+    width: 900px;
+    margin: 100px auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 50px 100px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.call-to-action h4,
+.call-to-action p {
+    color: white;
+}
+
+.call-to-action h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.call-to-action button {
+    padding: 10px 30px;
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
 }
